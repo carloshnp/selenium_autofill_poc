@@ -4,13 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-# Rest of the code...
-from seleniumwire import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import time
-
 driver = webdriver.Chrome()
 
 driver.get(r"http://127.0.0.1:5500/selenium_autofill/index.html")
