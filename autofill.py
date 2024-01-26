@@ -6,7 +6,7 @@ import time
 
 driver = webdriver.Chrome()
 
-driver.get(r"http://127.0.0.1:5500/selenium_autofill/index.html")
+driver.get(r"http://127.0.0.1:5500/selenium_autofill_poc/index.html")
 current_url = driver.current_url
 
 email_field = driver.find_element(By.ID, "email")
