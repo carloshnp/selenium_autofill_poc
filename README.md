@@ -33,7 +33,11 @@ Note: This script assumes that the Chrome WebDriver is installed and the web pag
     npm start
     ```
 
-3. Run the Python script:
+3. Open the `index.html` with some similar tool like Live Server on VS Code.
+
+4. Make sure that the port of the localhost is 5500.
+
+5. Run the Python script:
 
     ```bash
     python autofill.py
